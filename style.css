@@ -1,0 +1,89 @@
+#login {
+    border: 3px solid #00ff00;
+    border-radius: 5px;
+    width: 320px;
+    padding: 16px;
+    color: #00ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: center;
+}
+
+#passwordBox {
+    background: black;
+    color: lime;
+    border: none;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    width: 215px;
+    height: 25px;
+}
+
+#userBox {
+    background: black;
+    color: lime;
+    border: none;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    width: 250px;
+    height: 25px;
+}
+
+#loginHint {
+    border: 3px solid #00ff00;
+    border-radius: 2px;
+    width: 100px;
+    padding: 16px;
+    color: #00ff00;
+    position: absolute;
+    top: 63%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: left;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: black; 
+    color: #00ff00; 
+    font-family: Courier, monospace; 
+}
+
+p {
+    font-size: 17px;
+    margin: 0 0 3px 0;
+}
+
+h {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+sh {
+    font-size: 20px;
+    margin: 0 0 4px 0;
+    font-weight: bold;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: 'Courier';
+}
