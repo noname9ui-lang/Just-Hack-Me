@@ -1,0 +1,173 @@
+#login {
+    z-index: 9;
+    border: 3px solid #00ff00;
+    border-radius: 5px;
+    width: 320px;
+    padding: 16px;
+    color: #00ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: center;
+}
+
+#home {
+    display: block;
+    border: 3px solid #00ff00;
+    border-radius: 5px;
+    width: 320px;
+    padding: 16px;
+    color: #00ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: center;
+    filter: drop-shadow(0 0 15px #00ff00);
+}
+
+#passwordBox {
+    background: black;
+    color: lime;
+    border: none;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    width: 215px;
+    height: 25px;
+}
+
+#userBox {
+    background: black;
+    color: lime;
+    border: none;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: left;
+    outline: none;
+    width: 250px;
+    height: 25px;
+}
+
+.hint {
+    z-index: 10;
+    border: 3px solid #00ff00;
+    border-radius: 2px;
+    width: 100px;
+    padding: 16px;
+    color: #00ff00;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: left;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startButton {
+    display: flex;
+    cursor: pointer;
+    border: 2px solid #00ff00;
+    border-radius: 1px;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+#settingsButton {
+    display: flex;
+    cursor: pointer;
+    border: 2px solid #00ff00;
+    border-radius: 1px;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-top: 0px;
+    transform: translate(0, -30%);
+}
+
+#settings {
+    z-index: 10;
+    border: 3px solid #00ff00;
+    border-radius: 5px;
+    width: 220px;
+    padding: 16px;
+    color: #00ff00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    
+}
+
+#settingsHeader {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content + 5px;
+    cursor: move;
+}
+
+#closeSettings {
+    cursor: pointer;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: black; 
+    color: #00ff00; 
+    font-family: Courier, monospace; 
+}
+
+p {
+    font-size: 17px;
+    margin: 0 0 3px 0;
+}
+
+h {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+sh {
+    font-size: 20px;
+    margin: 0 0 4px 0;
+    font-weight: bold;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: 'Courier';
+}
